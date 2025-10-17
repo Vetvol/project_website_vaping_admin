@@ -1,16 +1,17 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import { FileText, Save, Edit } from 'lucide-react'
 
 export default function ContentManagement() {
   const [content, setContent] = useState({
-    heroTitle: 'Discover Sic! Salts',
+    heroTitle: 'Discover LUNIQ VAPE',
     heroSubtitle: 'and enter the world of intense sensations.',
-    heroDescription: 'Our nicotine salts are distinguished by the highest quality and carefully selected flavors that provide an unforgettable taste experience.',
-    aboutTitle: 'About SIC! SALTS',
-    aboutDescription: 'We are passionate about creating the finest vaping experiences with our premium nicotine salt formulations.',
-    contactEmail: 'info@sicsalts.com',
+    heroDescription: 'Our premium vape products are distinguished by the highest quality and carefully selected flavors that provide an unforgettable taste experience.',
+    aboutTitle: 'About LUNIQ VAPE',
+    aboutDescription: 'We are passionate about creating the finest vaping experiences with our premium vape formulations.',
+    contactEmail: 'info@luniqvape.com',
     contactPhone: '+1 (555) 123-4567'
   })
 
